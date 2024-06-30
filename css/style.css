@@ -1,0 +1,81 @@
+/* メイン画面 */
+body {
+  font-family: Arial, sans-serif;
+  background-color: rgb(250 232 255);
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100vh;
+  margin: 0;
+  overflow-y: auto;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 80%;
+  max-width: 600px;
+}
+
+.container {
+  background-color: #fdfdfd;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 20px 0px;
+}
+
+h1,
+h3 {
+  text-align: center;
+  padding-top: 4px;
+}
+
+h2 {
+  text-align: start;
+}
+
+.form {
+  text-align: center;
+  padding: 15px;
+  margin: auto;
+  margin-top: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form_item{
+  padding: 2px;
+}
+
+.footer_text {
+  font-size: small;
+  color: aliceblue;
+}
+
+/* 登録完了画面 */
+.button_area {
+  padding-top: 15px;
+  text-align: center;
+}
+
+/* 結果画面 */
+table {
+  margin: auto;
+  margin-top: 15px;
+  text-align: center;
+}
+
+table th {
+  /*thに対して*/
+  color: #ff9800; /*文字色*/
+  background: #fff5e5; /*背景色*/
+  padding: 10px;/*上下左右10pxずつ*/
+  border: solid 1px black;
+  width: 50px;
+}
+
+table td {/*table内のtdに対して*/
+  padding: 3px 10px;/*上下3pxで左右10px*/
+  border: solid 1px black;
+}
